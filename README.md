@@ -6,11 +6,20 @@ This project aims to explore and analyze the spatial co-location relationship be
 Project Features:
 
 -Data: This project provides geographic data for over 400 universities and more than 50,000 high-tech enterprises in Jiangsu Province.
-
 -Topological Data Analysis: Using the TopoTest method and Euler Characteristic Curve (ECC), this project conducts topological testing of the spatial distribution of enterprises and universities across the province, analyzing their spatial differences and co-location relationships at different scales.
-
 -Spatial Statistical Methods: The project employs distance-based methods such as the M function and Kd function to quantitatively analyze the spatial relationship and proximity between enterprises and universities at various distance ranges.
-
 -Regression Analysis: Using a multilevel regression model, the project examines the key factors influencing enterprise-university co-location, including enterprise characteristics, university types, and regional differences, while considering the effects of regional fixed effects.
-
 -Visualization and Results Presentation: The project generates various spatial distribution and topological analysis plots, clearly illustrating the spatial relationships between enterprises and universities in different cities of Jiangsu Province, aiding in the intuitive understanding of co-location patterns.
+
+## Tools and Libraries Used
+
+In this project, we utilized the following two open-source repositories to support topological data analysis and spatial analysis:
+
+1. **[Topotests](https://github.com/dioscuri-tda/topotests)**  
+   This library provides a topology-driven goodness-of-fit testing method based on Euler characteristic curves (ECC) for analyzing the topological features of datasets. We applied this method for two-sample testing in our study.
+
+2. **[dbmss](https://github.com/EricMarcon/dbmss)**  
+   This toolset is designed for spatial data analysis, specifically the M-function, which helps compute spatial relationships between universities and firms in various patent fields. We used this tool to analyze the spatial co-location effects in patent domains.
+
+Our analysis methods in this study are based on the functionality of these two libraries, with some modifications and extensions to better suit the specific needs of our research.
+
