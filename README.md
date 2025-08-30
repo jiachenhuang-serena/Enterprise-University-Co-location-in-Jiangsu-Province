@@ -24,7 +24,7 @@ In this project, we utilized the following two open-source repositories to suppo
    This library provides a topology-driven goodness-of-fit testing method based on Euler characteristic curves (ECC) for analyzing the topological features of datasets. We applied this method for two-sample testing in our study.
 
 2. **[dbmss](https://github.com/EricMarcon/dbmss)**  
-   This toolset is designed for spatial data analysis, specifically the M-function, which helps compute spatial relationships between universities and firms in various patent fields. We used this tool to analyze the spatial co-location effects in patent domains.
+   This toolset is designed for spatial data analysis, which helps compute spatial relationships between universities and firms in various patent fields. We used this tool to analyze the spatial co-location effects in patent domains.
 
 Our analysis methods in this study are based on the functionality of these two libraries, with some modifications and extensions to better suit the specific needs of our research.
 
